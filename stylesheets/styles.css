@@ -567,4 +567,65 @@ body {
   background-color: #364359;
   margin: 0;
   padding: 0;
+  color: #ffffff;
+}
+
+/* line 17, ../sass/styles.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 21, ../sass/styles.scss */
+a:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+/* line 27, ../sass/styles.scss */
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+/* line 34, ../sass/styles.scss */
+.container.page-top {
+  display: flex;
+  display: -webkit-flex;
+}
+/* line 39, ../sass/styles.scss */
+.container.page-top header img {
+  margin: 15px;
+  width: 200px;
+  height: auto;
+}
+/* line 46, ../sass/styles.scss */
+.container.page-top nav {
+  height: inherit;
+}
+/* line 48, ../sass/styles.scss */
+.container.page-top nav ul {
+  display: flex;
+  display: -webkit-flex;
+  height: 100%;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 54, ../sass/styles.scss */
+.container.page-top nav ul li.nav--item {
+  margin: 5px;
+  border-bottom: 6px solid #42d9f4;
+  -webkit-flex: 1;
+  flex: 1;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 16px;
+  -moz-transition: border-bottom-color 1s;
+  -o-transition: border-bottom-color 1s;
+  -webkit-transition: border-bottom-color 1s;
+  transition: border-bottom-color 1s;
+}
+/* line 62, ../sass/styles.scss */
+.container.page-top nav ul li.nav--item:hover {
+  border-bottom-color: #ffffff;
 }
